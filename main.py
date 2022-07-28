@@ -8,4 +8,4 @@ s = "URL you want profile in QR"
 url = pyqrcode.create(s)
 
 # Create and save the png file naming "myqr.png"
-url.svg("MyFB.svg", scale=6)
+url.svg("MyQR.svg", scale=6)
